@@ -6,9 +6,15 @@ export const Lproducts = () => {
     return (
 
         <div className="lproducts pt-[40px]">
-            <div className="lporducts-crads max-w-[1240px] mx-auto flex flex-col items-center gap-10">
+            <div className="lporducts-crads max-w-[1240px] mx-auto flex flex-col items-center gap-[30px]">
                 <h1 className="text-[30px] font-bold">Leatest Products</h1>
-                <div className="lproducts-items grid grid-cols-3 gap-4  items-center">
+                <div className="lproducts-links flex gap-4 items-center" >
+                    <p className="lproducts-link text-[#FB2E86] underline cursor-pointer">New Arrival</p>
+                    <p className="lproducts-link text-[#151875] cursor-pointer">Best Seller</p>
+                    <p className="lproducts-link text-[#151875] cursor-pointer">Featured</p>
+                    <p className="lproducts-link text-[#151875] cursor-pointer">Special Offer</p>
+                </div>
+                <div className="lproducts-items grid grid-cols-3 gap-6 items-center">
                     
                     {data.lProducts.map((item) => (
                         <div className="lproducts-items-card flex flex-col items-center w-[360px] h-[306px] border shadow-lg" key={item.id}>

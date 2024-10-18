@@ -8,6 +8,10 @@ import img6 from "../assets/images/image6.png"
 import img7 from "../assets/images/image7.png"
 import img8 from "../assets/images/image8.png"
 import img9 from "../assets/images/image9.png"
+import icon from "../assets/icon/icon.png"
+import icon1 from "../assets/icon/icon1.png"
+import icon2 from "../assets/icon/icon2.png"
+import icon3 from "../assets/icon/icon3.png"
 
 
 
@@ -139,6 +143,32 @@ export const data = {
             sale: "$65.00",
             link: '/product/4'
         }
+    ],
+    shopex:[
+        {
+        id: 1,
+        img: icon,
+        title:"24/7 Support",
+        lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+        },
+        {
+        id: 2,
+        img: icon1,
+        title:"24/7 Support",
+        lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+        },
+        {
+        id: 3,
+        img: icon2,
+        title:"24/7 Support",
+        lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+        },
+        {
+        id: 4,
+        img: icon3,
+        title:"24/7 Support",
+        lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida."
+        },
     ]
 
 }

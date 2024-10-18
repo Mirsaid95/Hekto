@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 
 export const Hero = () => {
     return (
-        <div className='hero flex relative pt-[20px] bg-[#F2F0FF]'>
+        <div className='hero flex relative mt-[20px] bg-[#F2F0FF]'>
             <div className="hero-left absolute top-0 left-[-100px]">
                 <img src={hero1} alt="" />
             </div>
